@@ -50,9 +50,7 @@ void main(void)
 	printf("PALABRA O FRASE\n");
 	printf("> ");
 	fgets(palabra, TAM, stdin);
-
 	printf("INPUT: %s", palabra);
-	puts(palabra);
 
 	malespin(palabra);
 
